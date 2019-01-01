@@ -20,7 +20,7 @@ ResultSet r=st.executeQuery("select * from student");
 while(r.next()){
 	
 	out.println("the name is "+r.getString(2)+"  the rool no is "+r.getInt(1));  out.println("<br>");
-
+System.out.println("this is working");
 	
 	
 }
